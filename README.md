@@ -1,6 +1,9 @@
 # Code with Quinoa in Quarkus
 
-&nbsp;
+This project provides a way to create a frontend application that runs on Quarkus by Quinoa and boots up in 0.021 seconds, when running it in a docker container from a native image. 
+
+![alt text](image.png)
+
 
 ## Notes to get started with Quinoa
 
