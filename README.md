@@ -28,7 +28,7 @@ A. Make a build version of the frontend in the folder called 'dist'. Navigate to
 npm run build
 ```
 
-B. Navigate to root and generate an "...SNAPSHOT-runner" executable file by running this command in terminal: 
+B. Navigate to root and generate a "...SNAPSHOT-runner" executable file by running this command in terminal: 
 
 ```shell script
 ./mvnw package -Pnative "-Dquarkus.native.container-build=true"
@@ -49,6 +49,14 @@ D. Build Dockerfile.Native:
 ```shell script
 docker build -f src/main/docker/Dockerfile.native -t quarkus/quinoa-image .
 ```
+
+(E. Run the native image): 
+
+```shell script
+docker run -i --rm --name hello_quarkus --env PORT=8081 -p 8081:8081 quarkus/quinoa-image   
+```
+The frontend applicationen enabled by Quinoa will be displayed at <http://localhost:8081>.
+
 
 &nbsp;
 
