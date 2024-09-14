@@ -1,6 +1,6 @@
 # Code with Quinoa in Quarkus
 
-This project provides a way to create a frontend application that runs on Quarkus by Quinoa and boots up in 0.021 seconds, when running it in a docker container from a native image. This project also provides a way to create full-stack applications, utilizing Quarkus for the backend and a framework of own choice for the frontend (React, Vue, Angular, Next.js, etc).
+This project provides a way to create a frontend application that runs on Quarkus by Quinoa and boots up in 0.021 seconds, when running it in a docker container from a **native image**. (As well this project provides a way to create a full-stack application, utilizing Quarkus for the backend and a framework of own choice for the frontend: React, Vue, Angular, Next.js, etc.)
 
 ![alt text](image.png)
 
